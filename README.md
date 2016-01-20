@@ -1,11 +1,14 @@
 # XCode_Tips
 Things every XCode user must know/use
 
-## TODO_FIXME_MANUAL_ERRORS.sh  
+##  AddTheseToRunScriptPhase/  
+Simply take the scripts in this directory, add them to a new ‘Run Script’ build phase in your Xcode project, build once. And you are good to go !
+
+### TODO_FIXME_MANUAL_ERRORS.sh  
   
 [TL;DR](http://krakendev.io/blog/generating-warnings-in-xcode)  
 
-A bash script to add in your ‘Run Script’ phase in XCode that will let you create warnings and errors manually.   
+This script will let you create warnings and errors manually.   
 Usage :  
 ```
 // TODO: This will generate a warning and highlight this line.  
